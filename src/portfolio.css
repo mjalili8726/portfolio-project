@@ -51,7 +51,21 @@ h2{
     font-weight: bold;
     font-size: 96px;
 }
+.about{
+    font-size: 96px;
+}
+.about-sec{
+    text-align: center;
 
+}
+
+.contact{
+
+    font-size: 50px;
+}
+.email-link{
+    font-size: 20px;
+}
 .btn-branding {
 
     color: white;
@@ -70,8 +84,26 @@ h2{
     font-size: 18px;
     padding: 18px 30px;
 }
-
-
+.btn-contact{
+    color: var(--btn-color);
+    border: 1px solid var(--btn-color); 
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+.btn-about{
+    color: white;
+    background: var(--btn-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.navigation-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
 
 .project-description{
     padding: 120px 60px;
