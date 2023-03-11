@@ -37,18 +37,35 @@ p{
     font-size: 24px;
    
 }
-.about-section{
+.content-container{
     padding: 160px 20px;
-}
-.about-section-content{
-    margin: 30px;
 
 }
-.about-section h2 {
+.content h2 {
     font-size: 1.5rem;
     font-family: var(--h1-font-family)  ;
     line-height: 85px;
 }
+.content h1{
+    font-size: 4rem;
+    font-family: var(--h1-font-family)  ;
+    line-height: 85px;
+}
+.content h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 20px 0 0;
+    font-weight: bold;
+    
+}
+.content p{
+    font-size: 0.875rem;
+}
+.content{
+    padding:  0;
+    text-align: center
+}
+
 h2{
     font-family: var(--h1-font-family)  ;
     font-size: 54px;
@@ -61,11 +78,6 @@ h2{
     font-family: var(--h1-font-family)  ;
     font-weight: bold;
     font-size: 96px;
-}
-.about-section h1 {
-    font-size: 4rem;
-    font-family: var(--h1-font-family)  ;
-    line-height: 85px;
 }
 
 .about{
@@ -139,7 +151,7 @@ h2{
         padding: 80 px 20px;
     
     }
-    .about-section{
+    .content-container{
         text-align: center;
         padding: 0;
     }
