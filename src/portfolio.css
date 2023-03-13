@@ -73,7 +73,7 @@ h2{
     line-height: 85px;
 
 }
-h4{
+h3{
     font-size: 48px;
     font-weight: bold;
     font-family: var(--h1-font-family);
@@ -147,8 +147,10 @@ h4{
 
     max-height: 40px;
 }
+
 nav {
-    padding: 20px 0;
+    padding: 20px 20px;
+
 }
 nav ul {
     margin: 0;

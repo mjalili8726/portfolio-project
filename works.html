@@ -14,8 +14,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Document</title>
+        <meta name="description" content="Maryam is a Front-end developer based in Iran , Tehran and this is her work page">
+        <title>Maryam Jalili about Page</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Playfair+Display:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
@@ -26,35 +26,36 @@
          <script src="https://kit.fontawesome.com/fa74fe55c1.js" crossorigin="anonymous"></script>
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
-        <a class="navbar-brand font-weight-bold href="#">Maryam Jalili</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="about.html"
-              >About me</a
-            >
-            <a class="nav-item nav-link" href="contact.html"
-              >Contact me</a
-    
-            >
-           
-          </div>
-        </div>
-    </nav>
+  <div class="container"></div>
+  <nav class="d-flex justify-content-between"> 
+     <a href="index.html" title="homepage">
+        <img src="img/logo.png" class="logo d-none d-md-block" alt="mary logo">
+        <img src="img/logo-small.png" alt="Mary small logo" class="logo d-block d-md-none ">
+     </a>
+         <ul>
+             <li>
+                 <a href="index.html"  title="homepage">                    
+                   Home
+                 </a>
+             </li>
+             <li>
+                 <a href="about.html" title="about Mary">                    
+                   About
+                 </a>
+             </li>
+             <li>
+                 <a href="" class="active" title="Mary's work page">                    
+                     Work
+                 </a>
+             </li>
+             <li>
+                 <a href="contact.html" title="contact Mary">                    
+                      contact
+                  </a>
+             </li>
+         </ul>
+     </nav>
+ </div>
     <div class="content-container container">
 
       <div class="content">
@@ -85,7 +86,7 @@
        </div>
        <div class="row">
         <div class="col-md-6 mb-4">
-          <img src="img/dictionary.png " class="img-fluid mb-3 rounded" alt="">
+          <img src="img/dictionary.png " class="img-fluid mb-3 rounded" alt="dictionary img">
           <h3 class="text-center m-0">
             Dictionary Project
           </h3>
@@ -95,7 +96,7 @@
         </div>
 
         <div class="col-md-6 mb-4">
-          <img src="img/translation.png " class="img-fluid mb-3 rounded" alt="">
+          <img src="img/translation.png " class="img-fluid mb-3 rounded" alt="translation img">
           <h3 class="text-center m-0">
             Translation Project
           </h3>
@@ -106,7 +107,42 @@
         
      </div>
     </div>
-                   
+    <footer>
+      <div class="contact-box  justify-content-between mb-5 d-none d-md-flex" >
+          <div>
+              <h3 >
+                  Work Inquiry
+              </h3>
+              <p class="text-muted" >
+                  Let’s work  together and i’ll help you by all my best
+              </p>
+          </div>
+          <div>
+              <a class="btn btn-about" href="contact.html" title="contact Mary">Contact me</a>
+
+          </div>
+
+
+
+      </div>
+      <div class="text-center d-flex justify-content-center mb-5">
+      <a href="mailto:maryam_jalili87@yahoo.com" class="email-link" target="_blank">Maryam_jalili87@yahoo.com</a>
+      </div>
+      <div class="special-links d-flex justify-content-center">
+          <a href="https://www.github.com/mjalili" title="Mary github">
+              <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/mjalili" title="Mary instagram" target="_blank">
+              <i class="fab fa-instagram"></i>
+              
+          </a>
+          <a href="https://www.twitter.com/mjalili" title="Mary twitter" target="_blank">
+              <i class="fab fa-twitter" ></i>
+
+          </a>
+      </div>
+      <p class="text-center mt-4">This project was coded Maryam Jalili and it is <a href="https://github.com/mjalili8726/portfolio-project" title="github link" target="_blank"> open source </a></p>
+  </footer>       
     </div>
 
 
